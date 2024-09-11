@@ -175,7 +175,7 @@ def change_imgs(image1, image2):
     return image1, image2
 
 with gr.Blocks(css=css) as Tryon:
-    gr.HTML(load_description("assets/title.md"))
+    gr.HTML(load_description("title.md"))
     with gr.Row():
         with gr.Column(elem_id = "col-left"):
             gr.HTML("""
